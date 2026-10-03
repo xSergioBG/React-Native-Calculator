@@ -12,6 +12,10 @@ updates:
         update-types: ['version-update:semver-major']
       - dependency-name: react-native
         update-types: ['version-update:semver-minor']
+      - dependency-name: react
+        update-types: ['version-update:semver-minor']
+      - dependency-name: expo-status-bar
+        update-types: ['version-update:semver-minor']
     groups:
       compatible-updates:
         patterns: ['*']
